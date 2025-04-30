@@ -1,5 +1,11 @@
 # GRID TEMPLATE TOOL
 
+### 4.20.25
+---
+NEW BRANCH : grid sandbox
+Moving on to new branch where the goal is to change functionality from having a CSS GRID 'explictly' and continously being written, read and interrupted. To an implicit one. The window as sandbox. 
+Any CSS GRID intrupting I want to do can be at the end as if it was an extraction of the current state, but everything will be written and read by the javascript in an absolute fashion. Think 3D animation matrix style. 
+A data matrix will keep track of elements and their positions. It will update those position in an absolute way ( no figuring out what css grid props need to be written ). I can then write methods that will use these data values to compute copy-paste text of CSS and the HTML
 ### 4.25.25 
 ---
 Issue fixed. computeRowsandCols( ) is called on document change and returns the number of grid rows and cols

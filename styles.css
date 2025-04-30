@@ -67,12 +67,12 @@ input{
     "c c d d"
     "c c d d";
 }
-.longScroll{
+.sidebar{
     display: grid;
     grid-template-areas: 
     "a a a a"
-    "b b b b"
-    "c c c c"
+    "b b b c"
+    "b b b c"
     "d d d d";
 }
 /* ======== Default styles above  ====== */
