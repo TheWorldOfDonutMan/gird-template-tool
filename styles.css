@@ -6,113 +6,19 @@
 
 .app{
     height: 100vh; width: 100%;
-    display: grid;
+    position: relative;
+    background-image: linear-gradient(to left, cornflowerblue, transparent);
 }
-section{
-    max-height: 120px;
-    border: grey inset 1px;
-    margin:5px;
-}
-.navbar--UI ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-}
-#interface{
+
+/*
+ TOGGLE STYLES
+*/
+.absolute{
     position: absolute;
-    z-index: 100;
-    right:0;
-    top:0
-}
-li{
-    list-style: none;
-    margin-right:15px;
-    padding: 5px
-}
-input{
-    margin-right:5px
-}
-/* ======== Default styles below ====== */
-.classic{
-    display: grid;
-    grid-template-areas: 
-    "a a"
-    "b c"
-    "b c"
-    "d d" 
 }
 
-.horizontal{    
-    display: grid;
-    grid-template-areas: 
-    "a a a"
-    "b b b"
-    "c c c"
-    "d d d ";}
-.vertical{
-    display: grid;
-    grid-template-areas: 
-    "a b c d"
-    "a b c d"
-    "a b c d"
-    "a b c d"
-    "a b c d"; 
-}
-.quad{
-    display: grid;
-    grid-template-areas: 
-    "a a b b"
-    "a a b b"
-    "c c d d"
-    "c c d d";
-}
-.longScroll{
-    display: grid;
-    grid-template-areas: 
-    "a a a a"
-    "b b b b"
-    "c c c c"
-    "d d d d";
-}
-/* ======== Default styles above  ====== */
-
-
-
-.base-grid-style{
-    /* margin:2px; */
-    font-size: 88px;
-    text-align: center;
-    /* border: 2px inset aliceblue; */
-    width: 100%;
-    height: 100%;
-    opacity: .75;
-}
-
-.divHover{
-    outline:10px yellow double;
-    z-index: 99;
-}
-.hidden{
-    display: none;
-}
-
-.a{
-    grid-area: a;
-    background-color: red;
-}
-
-.b{ 
-    grid-area: b;
-    background-color:blueviolet
-}
-
-.c{
-    grid-area: c;
-    background-color:tomato
-}
-
-.d{
-    grid-area: d;
-    background-color:forestgreen
+.grid-box{
+    width:100px;
+    height:100px;
+    background-image: linear-gradient(to right, pink, aliceblue);
 }
